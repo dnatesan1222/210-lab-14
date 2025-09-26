@@ -39,4 +39,22 @@ int main(){
     lavender.setGreen(204);
     lavender.setBlue(255);
     lavender.print();
+
+    Color skyBlue;
+    skyBlue.setRed(153);
+    skyBlue.setGreen(204);
+    skyBlue.setBlue(255);
+    skyBlue.print();
+
+    Color magenta;
+    magenta.setRed(204);
+    magenta.setGreen(0);
+    magenta.setBlue(102);
+    magenta.print();
+
+    Color turquoise;
+    turquoise.setRed(0);
+    turquoise.setGreen(102);
+    turquoise.setBlue(102);
+    turquoise.print();
 }
