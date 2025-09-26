@@ -25,6 +25,14 @@ public:
 
     //other methods
     void print(){
-        cout << setw(W15) 
+        cout << setw(W15) << "Color Values" << endl;
+        cout << setw(W15) << "Red Value: " << red << endl;
+        cout << setw(W15) << "Green Value: " << green << endl;
+        cout << setw(W15) << "Blue Value: " << blue << endl;
     }
 };
+
+int main(){
+    //first test
+    Color lavender
+}
