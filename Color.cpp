@@ -57,4 +57,17 @@ int main(){
     turquoise.setGreen(102);
     turquoise.setBlue(102);
     turquoise.print();
+
+    Color pastelYellow;
+    pastelYellow.setRed(255);
+    pastelYellow.setGreen(255);
+    pastelYellow.setBlue(153);
+    pastelYellow.print();
+
+    Color salmon;
+    salmon.setRed(255);
+    salmon.setGreen(153);
+    salmon.setBlue(153);
+    salmon.print();
+
 }
