@@ -13,17 +13,20 @@ private:
     int green;
     int blue;
 public:
-    //getters
+    // getters
     int getRed()		{ return red; }
     int getGreen()		{ return green; }
     int getBlue()		{ return blue; }
     
-    //setters
+    // setters
     void setRed(int r)		{ red = r; }
     void setGreen(int g)	{ green = g; }
     void setBlue(int b)		{ blue = b; }
 
-    //other methods
+    // other methods
+    // print() output's the color's RGB values in an organized format
+    // arguments: none
+    // returns: nothing
     void print(){
         cout << '\n' << setw(17) << "Color Values" << endl;
         cout << setw(15) << "Red Value: " << red << endl;
@@ -34,11 +37,16 @@ public:
 
 int main(){
     //first test
-    Color lavender;
-    lavender.setRed(204);
+    Color lavender;		//create object
+    lavender.setRed(204);	//set values
     lavender.setGreen(204);
     lavender.setBlue(255);
-    lavender.print();
+    lavender.print();		//output what the object stored
+    
+    //test getters
+    cout << "Lavender\nRed: " << lavender.getRed() << endl;
+    cout << "Blue: " << lavender.getBlue() << endl;
+    cout << "Green: " << lavender.getGreen() << endl;
 
     Color skyBlue;
     skyBlue.setRed(153);
