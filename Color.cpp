@@ -13,12 +13,12 @@ private:
     int green;
     int blue;
 public:
-    // getters
+    // getters: no arguments, returns the stored values of the instance variables
     int getRed()		{ return red; }
     int getGreen()		{ return green; }
     int getBlue()		{ return blue; }
     
-    // setters
+    // setters: take ints as arguments and sets instance variables
     void setRed(int r)		{ red = r; }
     void setGreen(int g)	{ green = g; }
     void setBlue(int b)		{ blue = b; }
